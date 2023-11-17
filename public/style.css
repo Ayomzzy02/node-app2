@@ -1,0 +1,726 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+	padding: 10px 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+button {
+	width: auto;
+	background-color: #a2702e;
+	padding: 10px 60px;
+	color: #fff;
+  border: none;
+  border-radius: 20px;
+}
+
+button a{
+	text-decoration: none;
+	color: #fff;
+}
+
+button a:hover{
+	color: #fff;
+}
+
+.col-sm a{
+	text-decoration: none;
+	color: #000;
+}
+
+.butt {
+	width: auto;
+	background-color: #fff;
+	padding: 10px 20px;
+	color: #fff;
+  border: none;
+}
+/*------------------------------------------------------------------------------------
+Navigation styling
+-----------------------------------------------------------------------------------------*/
+
+#nav-bar-menu{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	border-bottom: 1px solid #e4e3e3;
+	background-color: #fff;
+}
+
+.navbar-brand img {
+	width: 244px;
+	margin-left: 20px;
+}
+
+.navbar-nav{
+	padding: 0 20px;
+}
+
+.navbar-nav a{
+	font-weight: 600;
+	margin-right: 10px;
+}
+
+.navbar-nav a:hover{
+	transform: scale(1.1);
+	color: #ff4924;
+	border-bottom: solid 1px #e4e3e3;
+}
+
+/*--------------------------------------------------------------------------------
+Header Contact
+---------------------------------------------------------------------------------*/
+#header-contact{
+	background-color: #000;
+	color: #e8e6e6;
+	font-size: small;
+	padding: 10px;
+}
+
+/*--------------------------------------------------------------------------------
+Page banner
+---------------------------------------------------------------------------------*/
+#page-banner{
+	width: 100%;
+	height: 150px;
+	background-image: url(images/Slider221.jpg);
+	padding-top: 30px;
+	color: #fff;
+
+}
+
+/*--------------------------------------------------------------------------------
+slider
+--------------------------------------------------------------------------------- */
+
+#slide{
+	background-image: url(images/slidern.jpg);
+	padding: 40px;
+	
+}
+
+#slide .col:first-child{
+	text-align: left;
+	background-color: #fff;
+	padding: 30px;
+	
+}
+
+
+/*--------------------------------------------------------------------------
+Site main Slider
+------------------------------------------------------------------------------*/
+
+.carousel-caption{
+	background-color: hsla(0, 100%, 90%, 0.7);
+	width: 37%;
+	padding: 30px;
+	border-radius: 70px 0;
+	margin-bottom: 40px;
+}
+
+.carousel-caption h1 {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.carousel-caption p {
+	position: relative;
+    z-index: 2;
+    text-align: left;
+    font-weight: 400;
+}
+
+
+
+/*----------------------------------------------
+about us
+-----------------------------------------------*/
+
+#about-us{
+	margin: 25px 0;
+}
+
+/*-----------------------------------------------
+Service styling
+---------------------------------------------------*/
+
+#service{
+	margin: 60px 0;
+}
+
+.col:first-child{
+	padding: 40px;
+	background-color: #a2702e;
+	margin: 10px;
+	color: #fff;
+}
+
+.col{
+	padding: 40px;
+	margin: 10px;
+	border-bottom: 1px solid #000;
+}
+
+#service .col:hover{
+	background-color: #ffdaa4;
+	color: #000;
+	box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
+
+
+}
+
+
+#service .col a{
+	text-decoration: none;
+}
+
+
+/*-------------------------------------------------------------
+Practice Area
+-------------------------------------------------------------*/
+
+.practice-area{
+  background-color: #e4e5e6;
+  padding: 70px;
+  margin: 40px 0;
+}
+
+.practice-area img{
+	width: 370px;
+	height: 230px;
+}
+
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #ff5821;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ff5821;
+}
+
+.clients .swiper-slide img {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.clients .swiper-slide img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+
+
+/*-----------------------------------------------------
+About Us Page Styling
+------------------------------------------------------*/
+#about-page {
+  margin: 60px 0;
+}
+
+#about-page .col-sm {
+  padding: 40px 30px;
+}
+
+#mission {
+  padding: 30px;
+  background-color: #fce9b7;
+}
+
+#mission .col-md{
+  border-right: 1px solid #575756;
+  padding: 30px;
+}
+
+#mission .col-md:last-child{
+  border-right: none;
+}
+
+#about-extend{
+  padding: 10%;
+  background-color: #eff8fe;
+}
+
+.about-extend .col-xl{
+  width: 350px;
+  background-color: #fff;
+  margin: 30px;
+  padding: 40px;
+  border-radius: 20px;
+}
+/*--------------------------------------------------------------
+footer styling
+----------------------------------------------------------------*/
+#about-founder{
+margin: 50px 0;
+}
+
+#about-founder .col-sm{
+	text-align: left;
+	padding: 20px;
+}
+
+#about-founder img:hover{
+	transform: rotate(5deg);
+	box-shadow: 10px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+#about-founder a{
+text-decoration: none;
+color: #000;
+}
+
+#about-founder a:hover{
+transform: scale(1.2);
+color: #000;
+}
+
+/*------------------------------------------------------------
+contact box
+--------------------------------------------------------------*/
+#contact-box{
+	background-color: #e2e3e6;
+	padding: 30px;
+	font-family: 'Poppins', sans-serif;
+  font-family: 'Quicksand', sans-serif
+}
+
+#contact-box .col{
+	padding: 0 25px;
+
+}
+
+
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info-box {
+  color: #313030;
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 20px;
+}
+
+.contact .info-box i {
+  font-size: 32px;
+  color: #ff5821;
+  border-radius: 50%;
+  padding: 8px;
+  border: 2px dotted #ffded4;
+  float: left;
+}
+
+.contact .info-box h3 {
+  font-size: 20px;
+  color: #656262;
+  font-weight: 700;
+  margin: 10px 0 10px 68px;
+}
+
+.contact .info-box p {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin: 0 0 0 68px;
+}
+
+.contact .php-email-form {
+  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  padding: 30px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #ff5821;
+}
+
+.contact .php-email-form input {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form textarea {
+  padding: 12px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #ff5821;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.contact .php-email-form button[type=submit]:hover {
+  background: #ff7e54;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+.values .card {
+  border: 0;
+  padding: 160px 20px 20px 20px;
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.values .card-body {
+  z-index: 10;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 15px 30px;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+  transition: ease-in-out 0.4s;
+  border-radius: 5px;
+}
+
+.values .card-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.values .card-title a {
+  color: #473d3a;
+}
+
+.values .card-text {
+  color: #4b4949;
+}
+
+.values .read-more a {
+  color: #656262;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12px;
+  transition: 0.4s;
+}
+
+.values .read-more a:hover {
+  text-decoration: underline;
+}
+
+.values .card:hover .card-body {
+  background: #ff5821;
+}
+
+.values .card:hover .read-more a,
+.values .card:hover .card-title,
+.values .card:hover .card-title a,
+.values .card:hover .card-text {
+  color: #fff;
+}
+
+
+
+/*--------------------------------------------------------------
+# Team
+--------------------------------------------------------------*/
+#team{
+	padding: 60px 0;
+	background-color: #fffaf7;
+}
+
+.team .member {
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: center;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team .member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team .member .social {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 40px;
+  opacity: 0;
+  transition: ease-in-out 0.3s;
+  background: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .member .social a {
+  transition: color 0.3s;
+  color: #473d3a;
+  margin: 0 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team .member .social a:hover {
+  color: #ff5821;
+}
+
+.team .member .social i {
+  font-size: 18px;
+  line-height: 0;
+}
+
+.team .member .member-info {
+  padding: 25px 15px;
+}
+
+.team .member .member-info h4 {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #473d3a;
+}
+
+.team .member .member-info span {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: #989595;
+}
+
+.team .member .member-info p {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 26px;
+  color: #656262;
+}
+
+.team .member:hover .social {
+  opacity: 1;
+}
+
+
+
+/*--------------------------------
+Container Gallery
+----------------------------------*/
+
+#cargo-gallery {
+  margin: 50px 0;
+}
+
+.cargo-gallery img {
+  width: 90%;
+  height: auto;
+}
+
+
+/*--------------------------------
+footer styling
+----------------------------------*/
+
+footer{
+  background-color: #433e3e;
+}
+
+footer .container {
+	padding: 20px;
+	color: #fff;
+}
+
+footer .container a{
+	text-decoration: none;
+	color: #fff;
+}
+
+footer .container a:hover{
+	color: #cbcecf;
+	transform: scale(1.2);
+}
+
+
+
+
+
+/*--------------------------------
+small device styling
+--------------------------------------*/
+
+@media screen and (max-width: 767px) {
+    #about-us .container {
+      padding: 10px;
+      background-color: #f3f2f2;
+      text-align: justify;
+    }
+  
+    #about-extend {
+      padding: 10px;
+      background-color: #eff8fe;
+    }
+  
+    .about-extend .col-xl {
+      width: 90%;
+      background-color: #fff;
+      margin: 10px;
+      padding: 10px;
+      border-radius: 20px;
+    }
+  }
+  
+
+
+/*-----------------------------------------------------
+Contact Us Page Styling
+------------------------------------------------------*/
+
+.office-map{
+	padding: 20px;
+	margin: 40px 0;
+}
+
+#contact-address{
+	margin: 40px 0;
+}
+
+/*-----------------------------------------------------
+Our Services Page Styling
+------------------------------------------------------*/
+#our-services{
+	margin: 40px;
+}
+
+#our-services .row{
+	margin: 20px 0;
+}
+
+
+
+.col-xl{
+	margin: 30px 0;
+}
+
+
+
+/*-------------------------------------------------------
+Scroll to top
+---------------------------------------------------*/
+
+#topBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#topBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
